@@ -1,0 +1,81 @@
+/* src/Courses.css */
+
+/* General styles for the courses section */
+.courses-section {
+    background-color: #f8f9fa; /* Light gray background for the courses section */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Heading styles */
+.courses-section h2 {
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Card styles for individual course columns */
+.course-card {
+    padding: 20px; /* Padding inside each card */
+    border: 1px solid #e0e0e0; /* Light border around each card */
+    border-radius: 5px; /* Rounded corners */
+    margin: 40px; /* Margin between cards */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.course-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Text styles for course titles and descriptions */
+.course-card h4 {
+    color: #343a40; /* Darker text color for titles */
+    margin-top: 10px; /* Space above titles */
+}
+
+.course-card p {
+    color: #6c757d; /* Muted text color for descriptions */
+}
+.details-slide {
+    overflow: hidden;
+    max-height: 0; /* Start with hidden */
+    transition: max-height 0.5s ease-in-out; /* Animate the max-height */
+    padding: 0 20px; /* Add some padding */
+    background-color: #f8f9fa; /* Light background for the details */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 10px; /* Space between button and details */
+}
+
+/* When the details should be shown */
+.details-slide.show {
+    max-height: 200px; /* Set a maximum height when visible */
+}
+h5 {
+    font-size: 2.5em;      /* Make the text larger */
+    font-weight: bold;     /* Bold text for emphasis */
+    padding-top: 50px;     /* Add padding to the top */
+    text-align: center;    /* Center-align the text */
+    color: #333333;        /* Optional: Set text color */
+}
+.contact-btn {
+    background-color: #007bff; /* Blue color */
+    color: white; /* White text */
+    font-size: 1.5rem; /* Larger text */
+    padding: 15px 30px; /* Bigger padding for a bigger button */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from link */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+h4 {
+    color:rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+}

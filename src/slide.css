@@ -1,0 +1,32 @@
+/* Carousel image styles */
+.carousel-image {
+    max-height: 80vh; /* Limits the height to 80% of the viewport height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    filter: brightness(0.8); /* Adds a slight dark overlay for better text contrast */
+  }
+  
+  /* Carousel caption styles */
+  .carousel-caption {
+    position: absolute;
+    bottom: 20%; /* Positions text slightly higher than default */
+    text-align: left; /* Aligns text to the left */
+    width: 60%; /* Restricts caption width for a cleaner look */
+    left: 10%; /* Centers the caption slightly */
+    color: #ffffff; /* White text for contrast */
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2.5rem; /* Large title font */
+    font-weight: bold;
+    margin-bottom: 0.5em; /* Adds space below the title */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem; /* Slightly larger font for description */
+    font-weight: 300;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Shadow for readability */
+    max-width: 600px; /* Limits paragraph width */
+    line-height: 1.5; /* Improves text readability */
+  }
+  
