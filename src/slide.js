@@ -1,21 +1,23 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap'; // Bootstrap Carousel component
+import { HashRouter, Route, Switch } from 'react-router-dom';
+
 
 const SlideExample = () => {
     const exampleCarouselImages = [
         {
-            src: "assets/home0.jpg", // Image showing a vibrant campus or Romanian cultural landmark
+            src: "https://www.writersevoke.com/wp-content/uploads/2021/06/Importance-of-Studying-From-Home.jpg", // Image showing a vibrant campus or Romanian cultural landmark
             label: "Study In Romania",
             description: "Embark on an unforgettable academic journey in Romania! Experience world-class education, cultural diversity, and a vibrant student community in one of Europe’s most captivating destinations."
         },
         
         {
-            src: "assets/home4.jpg", // Original image 2
+            src: "https://res.cloudinary.com/team-odeon/images/f_webp/v1639484218/degreechoices/5-ways-to-get-the-most-out-of-college-dc-blog-min/5-ways-to-get-the-most-out-of-college-dc-blog-min.jpg?_i=AA", // Original image 2
             label: "A Thriving Student Community",
             description: "Join a diverse and inclusive community of students from around the world, where lifelong friendships are made and ideas are exchanged."
         },
         {
-            src: "assets/home.jpg", // Original image 3
+            src: "https://www.bolton.ac.uk/assets/Uploads/shutterstock_658847998.jpg", // Original image 3
             label: "State-of-the-Art Facilities",
             description: "Benefit from cutting-edge facilities, modern classrooms, and research centers designed to support academic excellence and innovation."
         }

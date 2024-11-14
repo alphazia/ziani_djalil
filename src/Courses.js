@@ -28,7 +28,7 @@ const Courses = () => {
             transition={{ duration: 1 }} // Transition duration of 1 second
         >
             <Container className="courses-section">
-                <h2 className="text-center my-4">Our Courses</h2>
+                <h2 className="text-center my-4">Our Fields</h2>
                 <Row className="text-center">
                     <Col md={5} className="course-card">
                         <motion.div

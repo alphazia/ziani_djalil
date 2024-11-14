@@ -64,7 +64,7 @@ const Content = () => (
                 transition={{ duration: 0.5 }}
               >
                 <Card>
-                  <Card.Img variant="top" src="/assets/enghome.jpg" />
+                  <Card.Img variant="top" src="https://png.pngtree.com/thumb_back/fh260/background/20230713/pngtree-3d-printer-in-use-by-engineering-students-image_3863968.jpg" />
                   <Card.Body>
                     <Card.Title>Engineering</Card.Title>
                     <Card.Text>
@@ -82,7 +82,7 @@ const Content = () => (
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <Card>
-                  <Card.Img variant="top" src="/assets/medhome.jpg" />
+                  <Card.Img variant="top" src="https://www.nottingham.ac.uk/medicine/images-multimedia/study-with-us/undergraduate-study-content-card.jpg" />
                   <Card.Body>
                     <Card.Title>Medicine</Card.Title>
                     <Card.Text>
@@ -100,7 +100,7 @@ const Content = () => (
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <Card>
-                  <Card.Img variant="top" src="/assets/pre.jpg" />
+                  <Card.Img variant="top" src="https://unibuc.ro/wp-content/uploads/2022/03/17.jpg" />
                   <Card.Body>
                     <Card.Title>Preparatory year </Card.Title>
                     <Card.Text>
@@ -138,7 +138,7 @@ const Content = () => (
                 transition={{ duration: 0.7 }}
               >
                 <Card>
-                  <Card.Img variant="top" src="/assets/research.jpg" />
+                  <Card.Img variant="top" src="https://cdn.digitaleurope.org/uploads/2018/10/Research-Innovation-1-e1549447938766.jpg" />
                   <Card.Body>
                     <Card.Title>Innovative Research</Card.Title>
                     <Card.Text>
@@ -171,7 +171,7 @@ const Content = () => (
                 transition={{ duration: 0.7 }}
               >
                 <Card>
-                  <Card.Img variant="top" src="/assets/campus.jpg" />
+                  <Card.Img variant="top" src="https://estudiar.vamtam.com/wp-content/uploads/2020/12/iStock-1210745478-conflicted-scaled.jpg" />
                   <Card.Body>
                     <Card.Title>Vibrant Campus</Card.Title>
                     <Card.Text>
@@ -188,7 +188,7 @@ const Content = () => (
                 transition={{ duration: 0.7 }}
               >
                 <Card>
-                  <Card.Img variant="top" src="/assets/student.jpg" />
+                  <Card.Img variant="top" src="https://www.romaniaexperience.com/wp-content/uploads/2022/10/students-in-Romania-1200x800.jpg" />
                   <Card.Body>
                     <Card.Title>Student Clubs</Card.Title>
                     <Card.Text>
@@ -270,7 +270,7 @@ const Content = () => (
                 </Link>
             </Col>
         </Row>
-        <h4> developed by ziani </h4>
+        <h4 > developed by ziani </h4>
         </Container>
       </section>
     </div>

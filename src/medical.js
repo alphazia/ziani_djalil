@@ -13,7 +13,7 @@ const Medical = () => {
         >
             {/* Hero Section */}
             <motion.section
-                style={{ ...styles.hero, backgroundImage: "url('./assets/med.jpeg')" }}
+                style={{ ...styles.hero, backgroundImage: "url('https://images7.alphacoders.com/697/thumb-1920-697207.jpg')" }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1 }}
@@ -33,28 +33,28 @@ const Medical = () => {
                 <Row xs={1} md={2} className="g-4">
                     <ProgramCard 
                         title="Medicine" 
-                        imageUrl="assets/medicine.jpeg" 
+                        imageUrl="https://www.future-doctor.de/wp-content/uploads/2024/03/medizinstudium_im_Ausland_auf_Deutsch-1440x961.jpg" 
                         description="The Medicine program offers a comprehensive curriculum covering clinical practice, medical research, and patient care." 
                         excellenceNote="World-Class Medical Education"
                     />
 
                     <ProgramCard 
                         title="Pharmacy" 
-                        imageUrl="assets/pharmacy.jpg" 
+                        imageUrl="https://png.pngtree.com/thumb_back/fw800/background/20220319/pngtree-science-student-holding-up-test-tube-technology-man-medicine-photo-image_16676080.jpg" 
                         description="Our Pharmacy program trains students in drug formulation, distribution, and patient care, emphasizing the role of pharmacists in healthcare." 
                         excellenceNote="Excellence in Pharmaceutical Sciences"
                     />
 
                     <ProgramCard 
                         title="Dentistry" 
-                        imageUrl="assets/dentist.jpg" 
+                        imageUrl="https://cliniquedeschutes.com/wp-content/uploads/2022/11/Cou%CC%82t-nettoyage-dentaire.jpeg" 
                         description="The Dentistry program focuses on oral health, providing students with hands-on experience in dental procedures and patient management." 
                         excellenceNote="Advanced Dental Training"
                     />
 
                     <ProgramCard 
                         title="Veterinary Medicine" 
-                        imageUrl="assets/veterinary.jpg" 
+                        imageUrl="https://f.maformation.fr/edito/sites/3/2021/08/veterinaire.jpeg" 
                         description="Our Veterinary Medicine program equips students with the knowledge and skills to diagnose and treat animal health issues." 
                         excellenceNote="Leading in Veterinary Care"
                     />
