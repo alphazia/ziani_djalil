@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ziani_djalil/static/css/main.5e9a1694.css",
+    "main.js": "/ziani_djalil/static/js/main.a1c2835d.js",
+    "static/js/488.6a3449dc.chunk.js": "/ziani_djalil/static/js/488.6a3449dc.chunk.js",
+    "index.html": "/ziani_djalil/index.html",
+    "main.5e9a1694.css.map": "/ziani_djalil/static/css/main.5e9a1694.css.map",
+    "main.a1c2835d.js.map": "/ziani_djalil/static/js/main.a1c2835d.js.map",
+    "488.6a3449dc.chunk.js.map": "/ziani_djalil/static/js/488.6a3449dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e9a1694.css",
+    "static/js/main.a1c2835d.js"
+  ]
+}
